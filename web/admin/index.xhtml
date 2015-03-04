@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Page Administrateur</title>
+        <h:outputStylesheet name="css/jsfcrud.css"/>
+    </h:head>
+    <h:body>
+        <H1 align="center" style="color:blue;font-weight: bold;">Bienvenue #{request.userPrincipal.name} à la page Administrateur du Système de gestion des dépenses familiales</H1>
+        <br />
+        <br />
+        <p>
+            <h:form>
+                <h:commandLink action="#{logoutBean.logout}" value="Logout" />
+            </h:form>
+        </p>
+
+        <h:link outcome="/admin/catdep/List" value="Catégories dépenses"/>
+        <br />
+        <h:link outcome="/admin/depenses/List" value="Dépenses"/>
+        <br />
+        <h:link outcome="/admin/groupe/List" value="Groupes"/>
+        <br />
+        <h:link outcome="/admin/utilisateurs/List" value="Utilisateurs"/>
+
+    </h:body>
+
+
+
+
+</html>
+

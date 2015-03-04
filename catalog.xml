@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8081/jasperserver/flow.html?_flowId=viewReportFlow&amp;standAlone=true&amp;_flowId=viewReportFlow&amp;ParentFolderUri=%2Freports&amp;reportUnit=%2Freports%2Fdepensesusersoerpt" uri="src/conf/xml-resources/jaxb/jasperBinding/localhost_8081/jasperserver/login.html_jsessionid_6d0fa5f1f1a24374a555f789c0bb51b6"/>
+</catalog>

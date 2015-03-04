@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Gestion des dépenses familiales</title>
+        <h:outputStylesheet name="css/jsfcrud.css"/>
+        <style>
+            .BGimage {background-image: url("resources/images/bgimg.jpg")}
+        </style>
+
+    </h:head>
+    <h:body styleClass="BGimage">
+        <h:graphicImage library="images" name="img1.png"></h:graphicImage>
+
+        <h:form id="loginForm">
+            <H1 align="center" style="color:white;font-weight: bold;">Bienvenue au Système de gestion des dépenses familiales</H1>
+            <br></br><br></br>
+            <table align="center" bgcolor="white" border="1">
+                <tr>
+                    <td width="50%" align="center" height="150%"><p><h:link outcome="/admin/index" value="Accès en tant qu'administrateur"/></p></td>
+                    <tr></tr><tr></tr>
+                </tr>
+                <tr>
+                    <td align="center" height="150%"><p><h:link outcome="/users/index" value="Accès en tant qu'utilisateur"/></p></td>
+
+                </tr>
+            </table>
+        </h:form>
+
+ 
+    </h:body>
+
+</html>
+
