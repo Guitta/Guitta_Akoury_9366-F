@@ -43,15 +43,7 @@ III- Création de l’application web JSF - PrimeFaces sous “NetBeans IDE”
 
  Choisir un mécanisme d'authentification
     login.xhtml 
-      	<form method="POST" action="j_security_check">
-                  <h:panelGrid columns="2">
-                      <h:outputLabel value="Nom d'utilisateur"/>
-                      <input type="text" name="j_username" />
-                      <h:outputLabel value="Mot de passe"/>
-                      <input type="password" name="j_password" />
-                      <input type="submit" value="Valider" />
-                  </h:panelGrid>
-              </form>
+      	j_security_check
 
     loginerror.xhtml
     
