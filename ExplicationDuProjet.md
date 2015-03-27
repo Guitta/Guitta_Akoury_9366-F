@@ -32,8 +32,14 @@ INSERT INTO `utilisateurs` (`username`, `password`) VALUES
 
 
 II- Configuration du JDBC Realm sous “GlassFish Administration Console”
+	Définir :
+		la référence JNDI vers cette base de donnés dans Glassfish
+		La connexion pool
+		La ressource
+	Définir le Realm dans Glassfish
 
-III- Création de l’application web JSF - PrimeFaces sous “NetBeans IDE”
+
+III- Création du projet: Création de l’application web JSF - PrimeFaces sous “NetBeans IDE”
     New Project …
       Java Web > Web Application
       Server : GlassFish
@@ -47,7 +53,7 @@ III- Création de l’application web JSF - PrimeFaces sous “NetBeans IDE”
 
     loginerror.xhtml
     
-  IV- Configuration des contraintes de sécurité dans web.xml
+  IV- Configuration des contraintes de sécurité dans web.xml et Utilisation du Realm
       Login Configuration
         L'autentification à base de Formulaire « Form » et déclaration du « Form Login Page », « Error Page » et « Realm Name »
       Security Roles
